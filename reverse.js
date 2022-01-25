@@ -15,7 +15,7 @@ function stringRev(st){
 //a function wich first seperate string into array, dilimiter " ", and then pass array element to stringRev function. to reverse string per word.
 function stringReverse(str){
     let tempArr = str.split(" ")
-    console.log(tempArr.length)
+  //  console.log(tempArr.length)
     let newStr =""
 
     for(let j = 0; j < tempArr.length ; j++){
